@@ -81,12 +81,12 @@
                                     <action selector="ButtonMinus:" destination="BYZ-38-t0r" eventType="touchUpInside" id="bV5-3V-nbF"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IEC-np-ePg">
-                                <rect key="frame" x="171" y="469" width="70" height="34"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IEC-np-ePg">
+                                <rect key="frame" x="178" y="471" width="65" height="31"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <state key="normal" title="Button"/>
+                                <state key="normal" title="Button" backgroundImage="frog"/>
                                 <buttonConfiguration key="configuration" style="plain" title="send"/>
                                 <connections>
                                     <action selector="send:" destination="BYZ-38-t0r" eventType="touchUpInside" id="4y9-mL-L3A"/>
@@ -113,11 +113,16 @@
                                     <action selector="clearButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="bNb-5G-rhe"/>
                                 </connections>
                             </button>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" fixedFrame="YES" image="frog" translatesAutoresizingMaskIntoConstraints="NO" id="zgn-4X-fbg">
+                                <rect key="frame" x="93" y="510" width="227" height="210"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
                     <connections>
+                        <outlet property="frog" destination="zgn-4X-fbg" id="Vke-xF-23m"/>
                         <outlet property="inserireNumero" destination="vxf-7u-E8D" id="A9g-1V-iNL"/>
                         <outlet property="risultatoLabel" destination="rYx-rT-CSu" id="qPP-CG-2cb"/>
                     </connections>
@@ -129,6 +134,7 @@
     </scenes>
     <resources>
         <image name=" " width="738" height="1310"/>
+        <image name="frog" width="236" height="236"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>

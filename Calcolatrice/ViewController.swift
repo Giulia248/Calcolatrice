@@ -17,14 +17,15 @@ class ViewController: UIViewController {
     var risultato: Int = 0
     var disabled = false
     
-    //label
     
+    //label e immagine
     @IBOutlet var risultatoLabel: UILabel!
+    @IBOutlet var frog: UIImageView!
     
     //textfield
     @IBOutlet var inserireNumero: UITextField!
     
-
+    
     
     //bottoni
     @IBAction func Calcola(_ sender: Any) {
@@ -52,6 +53,7 @@ class ViewController: UIViewController {
             print(risultato)
             let myRis = String(risultato)
             risultatoLabel.text = myRis
+
         }
     }
     @IBAction func ButtonPlus(_ sender: UIButton) {

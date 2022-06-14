@@ -13,6 +13,7 @@
 		CEB8CE22285893880089DD2B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEB8CE20285893880089DD2B /* Main.storyboard */; };
 		CEB8CE242858938A0089DD2B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEB8CE232858938A0089DD2B /* Assets.xcassets */; };
 		CEB8CE272858938A0089DD2B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEB8CE252858938A0089DD2B /* LaunchScreen.storyboard */; };
+		CEB8CE2F2858DB6F0089DD2B /* ExtensionAlpha.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEB8CE2E2858DB6E0089DD2B /* ExtensionAlpha.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		CEB8CE232858938A0089DD2B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CEB8CE262858938A0089DD2B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CEB8CE282858938A0089DD2B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CEB8CE2E2858DB6E0089DD2B /* ExtensionAlpha.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionAlpha.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 				CEB8CE1A285893880089DD2B /* AppDelegate.swift */,
 				CEB8CE1C285893880089DD2B /* SceneDelegate.swift */,
 				CEB8CE1E285893880089DD2B /* ViewController.swift */,
+				CEB8CE2E2858DB6E0089DD2B /* ExtensionAlpha.swift */,
 				CEB8CE20285893880089DD2B /* Main.storyboard */,
 				CEB8CE232858938A0089DD2B /* Assets.xcassets */,
 				CEB8CE252858938A0089DD2B /* LaunchScreen.storyboard */,
@@ -140,6 +143,7 @@
 			files = (
 				CEB8CE1F285893880089DD2B /* ViewController.swift in Sources */,
 				CEB8CE1B285893880089DD2B /* AppDelegate.swift in Sources */,
+				CEB8CE2F2858DB6F0089DD2B /* ExtensionAlpha.swift in Sources */,
 				CEB8CE1D285893880089DD2B /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
