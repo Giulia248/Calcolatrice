@@ -1,5 +1,5 @@
 # Calcolatrice
-Appa Calcolatrice
+App Calcolatrice
 
 steps of my calculator
 
